@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A0C7E622C08057F00A13E70 /* CAFETAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E612C08057F00A13E70 /* CAFETAN.swift */; };
+		8A0C7E642C08057F00A13E70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E632C08057F00A13E70 /* ContentView.swift */; };
+		8A0C7E662C08058000A13E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0C7E652C08058000A13E70 /* Assets.xcassets */; };
+		8A0C7E692C08058000A13E70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0C7E682C08058000A13E70 /* Preview Assets.xcassets */; };
+		8A0C7E8D2C0805AA00A13E70 /* MeasurementFormatter+ Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E742C0805AA00A13E70 /* MeasurementFormatter+ Extension.swift */; };
+		8A0C7E8E2C0805AA00A13E70 /* MKCoordinate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E752C0805AA00A13E70 /* MKCoordinate+Extensions.swift */; };
+		8A0C7E8F2C0805AA00A13E70 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E772C0805AA00A13E70 /* LocationManager.swift */; };
+		8A0C7E902C0805AA00A13E70 /* MapUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E792C0805AA00A13E70 /* MapUtilities.swift */; };
+		8A0C7E922C0805AA00A13E70 /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E7C2C0805AA00A13E70 /* PlaceListView.swift */; };
+		8A0C7E932C0805AA00A13E70 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E7D2C0805AA00A13E70 /* PlaceView.swift */; };
+		8A0C7E952C0805AA00A13E70 /* SearchOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E7F2C0805AA00A13E70 /* SearchOptionsView.swift */; };
+		8A0C7E962C0805AA00A13E70 /* SelectedPlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E802C0805AA00A13E70 /* SelectedPlaceDetailView.swift */; };
+		8A0C7E972C0805AA00A13E70 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7E812C0805AA00A13E70 /* Station.swift */; };
+		8A0C7EA52C08071300A13E70 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C7EA42C08071300A13E70 /* PreviewData.swift */; };
+		8A2087B72C170E4A000D69DA /* PopoverContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2087B62C170E4A000D69DA /* PopoverContentView.swift */; };
+		8A2087B92C170F56000D69DA /* MapContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2087B82C170F56000D69DA /* MapContenView.swift */; };
+		8A2087BF2C173865000D69DA /* PinShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2087BE2C173865000D69DA /* PinShade.swift */; };
+		8A62D05E2C3124C90094CA9F /* IdentifiableMapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A62D05D2C3124C90094CA9F /* IdentifiableMapItem.swift */; };
+		8A8C45502C188584001B2FF2 /* LineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8C454F2C188584001B2FF2 /* LineButton.swift */; };
+		8A9813282C33C00000DC3064 /* CafeSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9813272C33C00000DC3064 /* CafeSearchManager.swift */; };
+		8AAA090B2C0C91CE0004D579 /* WebVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAA090A2C0C91CE0004D579 /* WebVIew.swift */; };
+		8ADE1E3F2C154056001C2B4C /* station_line.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE1E3E2C154056001C2B4C /* station_line.csv */; };
+		8ADE1E412C1556F1001C2B4C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE1E402C1556F1001C2B4C /* MapView.swift */; };
+		8AE561CA2C117EA500B63927 /* IdentifiableURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE561C92C117EA500B63927 /* IdentifiableURL.swift */; };
+		8AE561CC2C1195D100B63927 /*  LineSelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE561CB2C1195D100B63927 /*  LineSelectButton.swift */; };
+		8AE561CE2C11D6A200B63927 /* CurrentLocationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE561CD2C11D6A200B63927 /* CurrentLocationButton.swift */; };
+		8AFF33942C0ED92B0030948C /*  StationLineFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF33932C0ED92B0030948C /*  StationLineFinder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A0C7E5E2C08057F00A13E70 /* CAFETAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAFETAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0C7E612C08057F00A13E70 /* CAFETAN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAFETAN.swift; sourceTree = "<group>"; };
+		8A0C7E632C08057F00A13E70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A0C7E652C08058000A13E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A0C7E682C08058000A13E70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A0C7E742C0805AA00A13E70 /* MeasurementFormatter+ Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MeasurementFormatter+ Extension.swift"; sourceTree = "<group>"; };
+		8A0C7E752C0805AA00A13E70 /* MKCoordinate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKCoordinate+Extensions.swift"; sourceTree = "<group>"; };
+		8A0C7E772C0805AA00A13E70 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8A0C7E792C0805AA00A13E70 /* MapUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapUtilities.swift; sourceTree = "<group>"; };
+		8A0C7E7C2C0805AA00A13E70 /* PlaceListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
+		8A0C7E7D2C0805AA00A13E70 /* PlaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		8A0C7E7F2C0805AA00A13E70 /* SearchOptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchOptionsView.swift; sourceTree = "<group>"; };
+		8A0C7E802C0805AA00A13E70 /* SelectedPlaceDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPlaceDetailView.swift; sourceTree = "<group>"; };
+		8A0C7E812C0805AA00A13E70 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		8A0C7EA42C08071300A13E70 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		8A2087B62C170E4A000D69DA /* PopoverContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverContentView.swift; sourceTree = "<group>"; };
+		8A2087B82C170F56000D69DA /* MapContenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContenView.swift; sourceTree = "<group>"; };
+		8A2087BE2C173865000D69DA /* PinShade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinShade.swift; sourceTree = "<group>"; };
+		8A62D05D2C3124C90094CA9F /* IdentifiableMapItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableMapItem.swift; sourceTree = "<group>"; };
+		8A8C454F2C188584001B2FF2 /* LineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineButton.swift; sourceTree = "<group>"; };
+		8A9813272C33C00000DC3064 /* CafeSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeSearchManager.swift; sourceTree = "<group>"; };
+		8AA23B702C0C576B00824948 /* CAFETAN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CAFETAN-Info.plist"; sourceTree = "<group>"; };
+		8AAA090A2C0C91CE0004D579 /* WebVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVIew.swift; sourceTree = "<group>"; };
+		8ADE1E3E2C154056001C2B4C /* station_line.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = station_line.csv; sourceTree = "<group>"; };
+		8ADE1E402C1556F1001C2B4C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8AE561C92C117EA500B63927 /* IdentifiableURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableURL.swift; sourceTree = "<group>"; };
+		8AE561CB2C1195D100B63927 /*  LineSelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LineSelectButton.swift"; sourceTree = "<group>"; };
+		8AE561CD2C11D6A200B63927 /* CurrentLocationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationButton.swift; sourceTree = "<group>"; };
+		8AFF33932C0ED92B0030948C /*  StationLineFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " StationLineFinder.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A0C7E5B2C08057F00A13E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A0C7E552C08057F00A13E70 = {
+			isa = PBXGroup;
+			children = (
+				8AA23B702C0C576B00824948 /* CAFETAN-Info.plist */,
+				8A0C7E602C08057F00A13E70 /* CAFETAN */,
+				8A0C7E5F2C08057F00A13E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A0C7E5F2C08057F00A13E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A0C7E5E2C08057F00A13E70 /* CAFETAN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A0C7E602C08057F00A13E70 /* CAFETAN */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC4FA42C34F19D0015A9E6 /* Models */,
+				8AFF33892C0ECB020030948C /* Line */,
+				8A0C7E782C0805AA00A13E70 /* Managers */,
+				8A0C7E7A2C0805AA00A13E70 /* Utils */,
+				8A0C7E822C0805AA00A13E70 /* Views */,
+				8A0C7E612C08057F00A13E70 /* CAFETAN.swift */,
+				8A0C7EA42C08071300A13E70 /* PreviewData.swift */,
+				8A0C7E652C08058000A13E70 /* Assets.xcassets */,
+				8A0C7E672C08058000A13E70 /* Preview Content */,
+			);
+			path = CAFETAN;
+			sourceTree = "<group>";
+		};
+		8A0C7E672C08058000A13E70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8ADE1E3E2C154056001C2B4C /* station_line.csv */,
+				8A0C7E682C08058000A13E70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A0C7E782C0805AA00A13E70 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8A0C7E772C0805AA00A13E70 /* LocationManager.swift */,
+				8A9813272C33C00000DC3064 /* CafeSearchManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8A0C7E7A2C0805AA00A13E70 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A0C7E742C0805AA00A13E70 /* MeasurementFormatter+ Extension.swift */,
+				8A0C7E752C0805AA00A13E70 /* MKCoordinate+Extensions.swift */,
+				8A0C7E792C0805AA00A13E70 /* MapUtilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A0C7E822C0805AA00A13E70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A0C7E632C08057F00A13E70 /* ContentView.swift */,
+				8A0C7E7C2C0805AA00A13E70 /* PlaceListView.swift */,
+				8A0C7E7D2C0805AA00A13E70 /* PlaceView.swift */,
+				8A0C7E802C0805AA00A13E70 /* SelectedPlaceDetailView.swift */,
+				8AAA090A2C0C91CE0004D579 /* WebVIew.swift */,
+				8ADE1E402C1556F1001C2B4C /* MapView.swift */,
+				8A2087B82C170F56000D69DA /* MapContenView.swift */,
+				8A2087BE2C173865000D69DA /* PinShade.swift */,
+				8A2087B62C170E4A000D69DA /* PopoverContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8AEC4FA42C34F19D0015A9E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A62D05D2C3124C90094CA9F /* IdentifiableMapItem.swift */,
+				8A0C7E812C0805AA00A13E70 /* Station.swift */,
+				8AE561C92C117EA500B63927 /* IdentifiableURL.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8AFF33892C0ECB020030948C /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF33932C0ED92B0030948C /*  StationLineFinder.swift */,
+				8A0C7E7F2C0805AA00A13E70 /* SearchOptionsView.swift */,
+				8A8C454F2C188584001B2FF2 /* LineButton.swift */,
+				8AE561CB2C1195D100B63927 /*  LineSelectButton.swift */,
+				8AE561CD2C11D6A200B63927 /* CurrentLocationButton.swift */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A0C7E5D2C08057F00A13E70 /* CAFETAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0C7E6C2C08058000A13E70 /* Build configuration list for PBXNativeTarget "CAFETAN" */;
+			buildPhases = (
+				8A0C7E5A2C08057F00A13E70 /* Sources */,
+				8A0C7E5B2C08057F00A13E70 /* Frameworks */,
+				8A0C7E5C2C08057F00A13E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAFETAN;
+			packageProductDependencies = (
+			);
+			productName = Ekissa7;
+			productReference = 8A0C7E5E2C08057F00A13E70 /* CAFETAN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A0C7E562C08057F00A13E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8A0C7E5D2C08057F00A13E70 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 8A0C7E592C08057F00A13E70 /* Build configuration list for PBXProject "CAFETAN" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A0C7E552C08057F00A13E70;
+			packageReferences = (
+				8AFF33982C0EDFD10030948C /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
+			productRefGroup = 8A0C7E5F2C08057F00A13E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A0C7E5D2C08057F00A13E70 /* CAFETAN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A0C7E5C2C08057F00A13E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0C7E692C08058000A13E70 /* Preview Assets.xcassets in Resources */,
+				8ADE1E3F2C154056001C2B4C /* station_line.csv in Resources */,
+				8A0C7E662C08058000A13E70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A0C7E5A2C08057F00A13E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9813282C33C00000DC3064 /* CafeSearchManager.swift in Sources */,
+				8A0C7E902C0805AA00A13E70 /* MapUtilities.swift in Sources */,
+				8A0C7E962C0805AA00A13E70 /* SelectedPlaceDetailView.swift in Sources */,
+				8A0C7E932C0805AA00A13E70 /* PlaceView.swift in Sources */,
+				8A0C7E8F2C0805AA00A13E70 /* LocationManager.swift in Sources */,
+				8A0C7E8D2C0805AA00A13E70 /* MeasurementFormatter+ Extension.swift in Sources */,
+				8AE561CE2C11D6A200B63927 /* CurrentLocationButton.swift in Sources */,
+				8ADE1E412C1556F1001C2B4C /* MapView.swift in Sources */,
+				8AFF33942C0ED92B0030948C /*  StationLineFinder.swift in Sources */,
+				8AE561CA2C117EA500B63927 /* IdentifiableURL.swift in Sources */,
+				8A0C7EA52C08071300A13E70 /* PreviewData.swift in Sources */,
+				8AAA090B2C0C91CE0004D579 /* WebVIew.swift in Sources */,
+				8A8C45502C188584001B2FF2 /* LineButton.swift in Sources */,
+				8A0C7E642C08057F00A13E70 /* ContentView.swift in Sources */,
+				8A0C7E972C0805AA00A13E70 /* Station.swift in Sources */,
+				8A0C7E622C08057F00A13E70 /* CAFETAN.swift in Sources */,
+				8A0C7E922C0805AA00A13E70 /* PlaceListView.swift in Sources */,
+				8A0C7E8E2C0805AA00A13E70 /* MKCoordinate+Extensions.swift in Sources */,
+				8A0C7E952C0805AA00A13E70 /* SearchOptionsView.swift in Sources */,
+				8A2087B72C170E4A000D69DA /* PopoverContentView.swift in Sources */,
+				8A2087BF2C173865000D69DA /* PinShade.swift in Sources */,
+				8A2087B92C170F56000D69DA /* MapContenView.swift in Sources */,
+				8AE561CC2C1195D100B63927 /*  LineSelectButton.swift in Sources */,
+				8A62D05E2C3124C90094CA9F /* IdentifiableMapItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A0C7E6A2C08058000A13E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A0C7E6B2C08058000A13E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A0C7E6D2C08058000A13E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CAFETAN/Preview Content\"";
+				DEVELOPMENT_TEAM = G3Y54DBA6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CAFETAN-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CAFETAN;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App needs access to your location for map functionality.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs access to your location for map functionality.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs access to your location for map functionality.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.mao.hatano.CAFETAN;
+				PRODUCT_NAME = CAFETAN;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A0C7E6E2C08058000A13E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CAFETAN/Preview Content\"";
+				DEVELOPMENT_TEAM = G3Y54DBA6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CAFETAN-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CAFETAN;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App needs access to your location for map functionality.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs access to your location for map functionality.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs access to your location for map functionality.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.mao.hatano.CAFETAN;
+				PRODUCT_NAME = CAFETAN;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A0C7E592C08057F00A13E70 /* Build configuration list for PBXProject "CAFETAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0C7E6A2C08058000A13E70 /* Debug */,
+				8A0C7E6B2C08058000A13E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0C7E6C2C08058000A13E70 /* Build configuration list for PBXNativeTarget "CAFETAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0C7E6D2C08058000A13E70 /* Debug */,
+				8A0C7E6E2C08058000A13E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8AFF33982C0EDFD10030948C /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 8A0C7E562C08057F00A13E70 /* Project object */;
+}
