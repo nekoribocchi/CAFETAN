@@ -208,7 +208,7 @@ https://developer.apple.com/documentation/mapkit/mkmapitem
 
 ```
 
-## Taskを使うメリット-UIの更新時
+####  Taskを使うメリット-UIの更新時
 
 - **ViewやButtonのような同期処理の中ではawaitは使えない → Taskで囲む必要あり**
 
